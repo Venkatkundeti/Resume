@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - VENKAT SAI KUNDETI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="resume">
+      <div class="header">
+        <div>
+          <h1>VENKAT SAI KUNDETI</h1>
+          <p>Email: <a href="mailto:venkatkundeti12@gmail.com">venkatkundeti12@gmail.com</a></p>
+          <p>Phone: 9052119777</p>
+          <p>Location: Eluru, India</p>
+        </div>
+        <img src="venkat.png" alt="Profile Photo" class="profile-img" />
+      </div>
+
+      <section>
+        <h2>About Me</h2>
+        <p>I am a passionate full-stack developer with a strong interest in building responsive web applications and user-centric solutions.</p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li><strong>Languages:</strong> JavaScript, Python, Java</li>
+          <li><strong>Web:</strong> HTML5, CSS3, Bootstrap, React.js</li>
+          <li><strong>Databases:</strong> MongoDB, MySQL</li>
+          <li><strong>Tools:</strong> Git, VS Code</li>
+        </ul>
+      </section>
+
+ 
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li><strong>FSD-CollegeNotify</strong> – Created a responsive website featuring a digital notice board system to streamline communication among students, faculty, and clubs.</li>
+          <li><strong>ML project- Smart Expenditure Prediction</strong> – Built a machine learning model to classify monthly income and predict expenditure patterns for smart budgeting.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Full Stack Web Development – Coursera (2025)</li>
+          <li>JavaScript Essentials – HackerRank</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Reading books</li>
+          <li>Participating in coding challenges</li>
+          <li>Volunteering at tech events</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:venkatkundeti12@gmail.com">venkatkundeti12@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Venkatkundeti" target="_blank">https://github.com/Venkatkundeti</a></p>
+        <p>LinkedIn: <a href="https://in.linkedin.com/in/venkata-sai-kundeti-a4ba612b9" target="_blank">linkedin.com/in/venkata-sai-kundeti-a4ba612b9</a></p>
+      </section>
+
+      <footer>
+        <p>© 2025 venkat kundeti</p>
+        <button id="toggle-theme">🌙 Dark Mode</button>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    const btn = document.getElementById('toggle-theme');
+    btn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      btn.textContent = document.body.classList.contains('dark-mode') ? '☀️ Light Mode' : '🌙 Dark Mode';
+    });
+  </script>
+</body>
+</html>
